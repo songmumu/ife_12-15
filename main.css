@@ -2,17 +2,16 @@
   padding: 0;
   margin: 0;
 }
-
-html {
-  height: 100%;
-}
-body {
-  width: 100%;
-  height: 100%;
+.body {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
 }
 
 .control-area {
   position: absolute;
+  top: 0;
+  left: 0;
   width: 240px;
   height: 100%;
   font-size: 0;
@@ -166,14 +165,19 @@ menu .option .fa {
 menu .option .title {
   color: rgba(240,240,240,0.3);
 }
+
+
 .content-wrapper {
+  position: absolute;
+  top: 0;
+  left: 240px;
+  overflow: hidden;
   width: calc(100% - 240px);
   height: 100%;
-  margin-left: 240px;
-  overflow: auto;
 }
 .content {
  width: 100%;
+ height: 100%;;
  color: #555;
 }
 
@@ -190,6 +194,7 @@ menu .option .title {
   font-size: 0;
 }
 .messign-header .header {
+  position: relative;
   width: 100%;
   height: 50px;
   border-bottom: 1px solid #ccc;
@@ -206,7 +211,6 @@ menu .option .title {
   color: #ccc; 
 }
 .users .avater{
-  position: relative;
   display: inline-block;
   width: 36px;
   height: 36px;
@@ -214,10 +218,10 @@ menu .option .title {
   border-radius: 50%;
   cursor: pointer;
 }
-.avater .online-tip {
+ .online-tip {
   position: absolute;
-  top: 20px;
-  left: 19px;
+  top: 25px;
+  right: 186px;
   width: 12px;
   height: 12px;
   border: 3px solid white;
@@ -362,16 +366,22 @@ menu .option .title {
 
 
 .friends-aboutme {
-  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
   font-size: 0;
-  min-width: 800px;
+  width: 100%;
+  min-width: 700px;
+  height: 100%;
 }
 .my-friends {
-  vertical-align: top;
-  overflow: hidden;
+  position: absolute;
+  top: 0;
   margin-top: 91px;
-  display: inline-block;
-  width: 280px;
+  width: 297px;
+  height: 100%;
+  overflow: auto;
+  padding-right: 17px;
 }
 .my-friends .firends {
   width: 100%;
@@ -443,13 +453,23 @@ menu .option .title {
 }
 
 .friends-update {
-  vertical-align: top;
-  overflow: hidden;
+  position: absolute;
+  left: 280px;
+  top: 0;
   padding-top: 91px;
-  display: inline-block;
   box-sizing: border-box;
-  width: calc(100% - 280px);
-  border-left: 1px solid #ccc; 
+  width: calc(100% - 263px);
+  height: 100%;
+  border-left: 1px solid #ccc;
+  background: white;
+}
+.dialog-wrapper {
+  overflow: auto;
+  position: absolute;
+  top: 91px;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
 }
 .dialog-wrapper .dialog {
   font-size: 12px;
@@ -513,8 +533,15 @@ menu .option .title {
   font-weight: 400;
 }
 
-.dialog .answer {
-  padding: 0px 20px 20px 60px;
+.answer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  box-sizing: border-box;
+  width: calc(100% - 17px);
+  background: white;
+  z-index: 1;
+  padding: 20px 20px 20px 60px;
   font-size: 0;
 }
 .answer .add-button{
@@ -536,7 +563,7 @@ menu .option .title {
   border-left: none;
   display: inline-block;
   height: 30px;
-  width: 80%;
+  width: 90%;
   text-indent: 1rem;
   outline: none;
   border: 1px solid #ccc;

@@ -9,314 +9,434 @@
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
 </head>
 <body>
-  <div class="control-area">
-    <nav>
-      <div class="chat">
-        <div class="button"></div>
-        <div class="current-signal-lamp"></div>
-      </div>
-      <div class="passing">
-        <div class="button"></div>
-        <div class="signal-lamp"></div>
-      </div>
-      <div class="game">
-        <div class="button"></div>
-        <div class="signal-lamp"></div>
-      </div>
-      <div class="plus">
-        <div class="button"></div>
-        <div class="plus-lamp"></div>
-      </div>
-      <div class="app_setting">
-        <div class="app"></div>
-        <div class="setting"></div>
-      </div>
-    </nav>
-    <menu>
-      <div class="menu option">
-        <div class="title-wrapper">
-          <p class="title">MENU</p>
-          <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+  <div class="body">
+    <div class="control-area">
+      <nav>
+        <div class="chat">
+          <div class="button"></div>
+          <div class="current-signal-lamp"></div>
         </div>
-        <p class="text">Overview</p>
-        <p class="text">sales<span class="messige-tip">54</span></p>
-        <p class="text">Your Staff</p>
-        <p class="text">Analytics Targeting</p>
-        <p class="text">What's New</p>
-      </div>
-      <div class="products option">
-        <div class="title-wrapper">
-          <p class="title">YOUR PRODUCTS</p>
-          <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+        <div class="passing">
+          <div class="button"></div>
+          <div class="signal-lamp"></div>
         </div>
-        <p class="text"><i class="fa fa-book" aria-hidden="true"></i>Books</p>
-        <p class="text"><i class="fa fa-camera" aria-hidden="true"></i>Tutorials</p>
-        <p class="text"><i class="fa fa-camera-retro" aria-hidden="true"></i>Stocks</p>
-        <p class="text"><i class="fa fa-signal" aria-hidden="true"></i>Infographics</p>
-      </div>
-      <div class="dashboard option">
-        <div class="title-wrapper">
-          <p class="title">DASHBOARD</p>
-          <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+        <div class="game">
+          <div class="button"></div>
+          <div class="signal-lamp"></div>
         </div>
-        <p class="text">Message<span class="messige-tip">21</span></p>
-        <p class="text">Connections</p>
-        <p class="text">Integrations<span class="error-tip">!</span></p>
-        <p class="text">Account Setting</p>
-        <p class="text">App Setting</p>
-      </div>
-      <div class="goals">
-        <p><span class="text">Monthly Goals</span><span>$580/$3200</span></p>
-        <div class="base-num">
-          <div class="current-num"></div>
+        <div class="plus">
+          <div class="button"></div>
+          <div class="plus-lamp"></div>
         </div>
-      </div>
-    </menu>
-  </div>
-  <div class="content-wrapper">
-    <div class="content">
-      <div class="messign-header">
-        <div class="header">
-          <p class="title">Message</p>
-          <div class="users">
-            <div class="avater">
-              <img src="images/person(8).png" alt="user-avater">
+        <div class="app_setting">
+          <div class="app"></div>
+          <div class="setting"></div>
+        </div>
+      </nav>
+      <menu>
+        <div class="menu option">
+          <div class="title-wrapper">
+            <p class="title">MENU</p>
+            <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+          </div>
+          <p class="text">Overview</p>
+          <p class="text">sales<span class="messige-tip">54</span></p>
+          <p class="text">Your Staff</p>
+          <p class="text">Analytics Targeting</p>
+          <p class="text">What's New</p>
+        </div>
+        <div class="products option">
+          <div class="title-wrapper">
+            <p class="title">YOUR PRODUCTS</p>
+            <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+          </div>
+          <p class="text"><i class="fa fa-book" aria-hidden="true"></i>Books</p>
+          <p class="text"><i class="fa fa-camera" aria-hidden="true"></i>Tutorials</p>
+          <p class="text"><i class="fa fa-camera-retro" aria-hidden="true"></i>Stocks</p>
+          <p class="text"><i class="fa fa-signal" aria-hidden="true"></i>Infographics</p>
+        </div>
+        <div class="dashboard option">
+          <div class="title-wrapper">
+            <p class="title">DASHBOARD</p>
+            <span class="option-setting"><i class="fa fa-cog" aria-hidden="true"></i></span>
+          </div>
+          <p class="text">Message<span class="messige-tip">21</span></p>
+          <p class="text">Connections</p>
+          <p class="text">Integrations<span class="error-tip">!</span></p>
+          <p class="text">Account Setting</p>
+          <p class="text">App Setting</p>
+        </div>
+        <div class="goals">
+          <p><span class="text">Monthly Goals</span><span>$580/$3200</span></p>
+          <div class="base-num">
+            <div class="current-num"></div>
+          </div>
+        </div>
+      </menu>
+    </div>
+    <div class="content-wrapper">
+      <div class="content">
+        <div class="messign-header">
+          <div class="header">
+            <p class="title">Message</p>
+            <div class="users">
+              <div class="avater">
+                <img src="images/person(8).png" alt="user-avater">
+              </div>
               <div class="online-tip">
                 <div class="inner-box"></div>
               </div>
+              <div class="currentUser-baseInfo">
+                <p class="currentUser-name">Jordan J.</p>
+                <p class="currentUser-level">Administrator</p>
+                <span class="drop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+              </div>
             </div>
-            <div class="currentUser-baseInfo">
-              <p class="currentUser-name">Jordan J.</p>
-              <p class="currentUser-level">Administrator</p>
-              <span class="drop"><i class="fa fa-angle-down" aria-hidden="true"></i></span>
+          </div>
+          <div class="search">
+            <input type="text" class="search-box" onclick="this.style.background='none'" placeholder="search">
+          </div>
+          <div class="friends-aboutSetting">
+            <div class="talking-user">
+              <span class="username">Bessie Berry</span>
+              <span class="status"></span>
+            </div>
+            <div class="user-operate">
+              <div class="base-operate">
+                <button class="add-user"><i class="fa fa-user-plus" aria-hidden="true"></i></button>
+                <button class="share"><i class="fa fa-share-square" aria-hidden="true"></i></button>
+                <button class="delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
+              </div>
+              <p class="pages">1 of 28</p>
+              <div class="pages-button">
+                <button class="prev-page"><i class="fa fa-caret-left" aria-hidden="true"></i></button>
+                <button class="next-page"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
+              </div>
             </div>
           </div>
         </div>
-        <div class="search">
-          <input type="text" class="search-box" onclick="this.style.background='none'" placeholder="search">
-        </div>
-        <div class="friends-aboutSetting">
-          <div class="talking-user">
-            <span class="username">Bessie Berry</span>
-            <span class="status"></span>
-          </div>
-          <div class="user-operate">
-            <div class="base-operate">
-              <button class="add-user"><i class="fa fa-user-plus" aria-hidden="true"></i></button>
-              <button class="share"><i class="fa fa-share-square" aria-hidden="true"></i></button>
-              <button class="delete"><i class="fa fa-trash" aria-hidden="true"></i></button>
-            </div>
-            <p class="pages">1 of 28</p>
-            <div class="pages-button">
-              <button class="prev-page"><i class="fa fa-caret-left" aria-hidden="true"></i></button>
-              <button class="next-page"><i class="fa fa-caret-right" aria-hidden="true"></i></button>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="friends-aboutme">
-        <div class="my-friends">
-          <div class="friends">
-            <div class="person current-person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(1).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name current-online">Bessie Berry</p>
-                  <p class="account-belong">Twitter</p>
-                  <span class="public-time">3m</span>
-                </div>
-              </div>
-              <div class="message message-tip">
-                <p>I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</p>
-              </div>
-              <div class="new-tip">4</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(2).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Vitor Weber</p>
-                  <p class="account-belong">Adobe</p>
-                  <span class="public-time">8m</span>
-                </div>
-              </div>
-              <div class="message">I shared this on my fb wall a few months back, and I thought I'd share it here again because it's such a great...</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(3).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Dstin Besin</p>
-                  <p class="account-belong">Facebook</p>
-                  <span class="public-time">Yesterday</span>
-                </div>
-              </div>
-              <div class="message">If there is anyone who needs an invitation please add yourself in the comments of this post!</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(4).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Jack Mason</p>
-                  <p class="account-belong">Yahoo</p>
-                  <span class="public-time">Yesterday</span>
-                </div>
-              </div>
-              <div class="message">BruteDC is a peer-to-peer movie+tv series sharing and downloading platform which works on intranet inside...</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(5).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Stephen Shelton</p>
-                  <p class="account-belong">Spnapchar</p>
-                  <span class="public-time">13 Jun</span>
-                </div>
-              </div>
-              <div class="message">Yes, p2p traffic is often filtered (QoSed). Although i do use BT on O2 wires, and in good days dl speed...</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(6).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Sally Willis</p>
-                  <p class="account-belong">Twitter</p>
-                  <span class="public-time">12 Jun</span>
-                </div>
-              </div>
-              <div class="message">Yes, it's O2: 'internet extreme', which is no longer offered.</div>
-            </div>
-            <div class="person">
-              <div class="person-info">
-                <div class="avater">
-                  <img src="images/person(7).png" alt="avater">
-                </div>
-                <div class="user-basicInfo">
-                  <p class="name">Robert Patton</p>
-                  <p class="account-belong">A Team</p>
-                  <span class="public-time">9 Jun</span>
-                </div>
-              </div>
-              <div class="message">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</div>
-            </div>
-          </div>
-        </div>
-        <div class="friends-update">
-          <div class="dialog-wrapper">
-            <div class="dialog">
-              <div class="friend-dialog">
-                <div class="avater">
-                  <img src="images/person(1).png" alt="avater">
-                </div>
-                <div class="dialog-container">
+        <div class="friends-aboutme">
+          <div class="my-friends">
+            <div class="friends">
+              <div class="person current-person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(1).png" alt="avater">
+                  </div>
                   <div class="user-basicInfo">
-                    <span class="name">Bessie Berry</span>
-                    <span class="dialog-time">8:31 AM</span>
-                  </div>
-                  <div class="dialog-content">
-                      <div class="content-text">Hi guys Ive got the O2 package and have really slow internet. A speed check online said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to open pages and open audio files for example. I have decided to switch to the UPC package which offers 10mbps but do you think i will get it?</div>
-                      
+                    <p class="name current-online">Bessie Berry</p>
+                    <p class="account-belong">Twitter</p>
+                    <span class="public-time">3m</span>
                   </div>
                 </div>
+                <div class="message message-tip">
+                  <p>I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</p>
+                </div>
+                <div class="new-tip">4</div>
               </div>
-              <div class="my-dialog">
-                <div class="avater">
-                    <img src="images/person(8).png" alt="avater">
-                </div>
-                <div class="dialog-container">
-                  <div class="user-basicInfo">
-                    <span class="name">Jordan Jackson</span>
-                    <span class="dialog-time">8:31 AM</span>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(2).png" alt="avater">
                   </div>
-                  <div class="dialog-content">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</div>
-                  <!-- <div class="content-image">
-                    <div class="image-wrapper">
-                      <img src="" alt="dialog-image" onerror="this.style.display='none'">
+                  <div class="user-basicInfo">
+                    <p class="name">Vitor Weber</p>
+                    <p class="account-belong">Adobe</p>
+                    <span class="public-time">8m</span>
+                  </div>
+                </div>
+                <div class="message">I shared this on my fb wall a few months back, and I thought I'd share it here again because it's such a great...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(3).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Dstin Besin</p>
+                    <p class="account-belong">Facebook</p>
+                    <span class="public-time">Yesterday</span>
+                  </div>
+                </div>
+                <div class="message">If there is anyone who needs an invitation please add yourself in the comments of this post!</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(4).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Jack Mason</p>
+                    <p class="account-belong">Yahoo</p>
+                    <span class="public-time">Yesterday</span>
+                  </div>
+                </div>
+                <div class="message">BruteDC is a peer-to-peer movie+tv series sharing and downloading platform which works on intranet inside...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(5).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Stephen Shelton</p>
+                    <p class="account-belong">Spnapchar</p>
+                    <span class="public-time">13 Jun</span>
+                  </div>
+                </div>
+                <div class="message">Yes, p2p traffic is often filtered (QoSed). Although i do use BT on O2 wires, and in good days dl speed...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(6).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Sally Willis</p>
+                    <p class="account-belong">Twitter</p>
+                    <span class="public-time">12 Jun</span>
+                  </div>
+                </div>
+                <div class="message">Yes, it's O2: 'internet extreme', which is no longer offered.</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(7).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Robert Patton</p>
+                    <p class="account-belong">A Team</p>
+                    <span class="public-time">9 Jun</span>
+                  </div>
+                </div>
+                <div class="message">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(2).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Vitor Weber</p>
+                    <p class="account-belong">Adobe</p>
+                    <span class="public-time">8m</span>
+                  </div>
+                </div>
+                <div class="message">I shared this on my fb wall a few months back, and I thought I'd share it here again because it's such a great...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(3).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Dstin Besin</p>
+                    <p class="account-belong">Facebook</p>
+                    <span class="public-time">Yesterday</span>
+                  </div>
+                </div>
+                <div class="message">If there is anyone who needs an invitation please add yourself in the comments of this post!</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(4).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Jack Mason</p>
+                    <p class="account-belong">Yahoo</p>
+                    <span class="public-time">Yesterday</span>
+                  </div>
+                </div>
+                <div class="message">BruteDC is a peer-to-peer movie+tv series sharing and downloading platform which works on intranet inside...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(5).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Stephen Shelton</p>
+                    <p class="account-belong">Spnapchar</p>
+                    <span class="public-time">13 Jun</span>
+                  </div>
+                </div>
+                <div class="message">Yes, p2p traffic is often filtered (QoSed). Although i do use BT on O2 wires, and in good days dl speed...</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(6).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Sally Willis</p>
+                    <p class="account-belong">Twitter</p>
+                    <span class="public-time">12 Jun</span>
+                  </div>
+                </div>
+                <div class="message">Yes, it's O2: 'internet extreme', which is no longer offered.</div>
+              </div>
+              <div class="person">
+                <div class="person-info">
+                  <div class="avater">
+                    <img src="images/person(7).png" alt="avater">
+                  </div>
+                  <div class="user-basicInfo">
+                    <p class="name">Robert Patton</p>
+                    <p class="account-belong">A Team</p>
+                    <span class="public-time">9 Jun</span>
+                  </div>
+                </div>
+                <div class="message">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable...</div>
+              </div>
+            </div>
+          </div>
+          <div class="friends-update">
+            <div class="dialog-wrapper">
+              <div class="dialog">
+                <div class="friend-dialog">
+                  <div class="avater">
+                    <img src="images/person(1).png" alt="avater">
+                  </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Bessie Berry</span>
+                      <span class="dialog-time">8:31 AM</span>
                     </div>
-                    <div class="image-wrapper">
-                      <img src="" alt="dialog-image" onerror="this.style.display='none'">
+                    <div class="dialog-content">
+                        <div class="content-text">Hi guys Ive got the O2 package and have really slow internet. A speed check online said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to open pages and open audio files for example. I have decided to switch to the UPC package which offers 10mbps but do you think i will get it?</div>
+                        
                     </div>
-                  </div> -->
-                </div>
-              </div>
-            </div>
-            <div class="history-line line">
-              <p class="center-text">Tuesday</p>
-            </div>
-            <div class="dialog">
-              <div class="friend-dialog">
-                <div class="avater">
-                  <img src="images/person(1).png" alt="avater">
-                </div>
-                <div class="dialog-container">
-                  <div class="user-basicInfo">
-                    <span class="name">Bessie Berry</span>
-                    <span class="dialog-time">8:31 AM</span>
                   </div>
-                  <div class="dialog-content">Funny comparison. so would the proper antivirus not slow down the internet as much or do you mean a freebie doenst protect the computer from viruses?</div>
                 </div>
-              </div>
-              <div class="my-dialog">
-                <div class="avater">
-                    <img src="images/person(8).png" alt="avater">
-                </div>
-                <div class="dialog-container">
-                  <div class="user-basicInfo">
-                    <span class="name">Jordan Jackson</span>
-                    <span class="dialog-time">8:31 AM</span>
+                <div class="my-dialog">
+                  <div class="avater">
+                      <img src="images/person(8).png" alt="avater">
                   </div>
-                  <div class="dialog-content">
-                    <div class="content-text">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2, and haven't had any problems. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. I max out at about 3 Mb/sec down, and 350 Kb/sec up. Probably because of a noisy telephone line, not because I'm being throttled. When my uploads go over 25 KB/sec (note, bytes, not bits), my download speed suffers. This is expected, as downloads require upload bandwidth as well. </div>
-                    <div class="content-image">
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Jordan Jackson</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</div>
+                    <!-- <div class="content-image">
                       <div class="image-wrapper">
-                        <img src="images/person(9).png" alt="dialog-image">
-                        <div class="look">
-                          <div class="look-icon"></div>
-                        </div>
+                        <img src="" alt="dialog-image" onerror="this.style.display='none'">
                       </div>
                       <div class="image-wrapper">
-                        <img src="images/person(10).png" alt="dialog-image">
-                        <div class="look">
-                          <div class="look-icon"></div>
+                        <img src="" alt="dialog-image" onerror="this.style.display='none'">
+                      </div>
+                    </div> -->
+                  </div>
+                </div>
+              </div>
+              <div class="history-line line">
+                <p class="center-text">Tuesday</p>
+              </div>
+              <div class="dialog">
+                <div class="friend-dialog">
+                  <div class="avater">
+                    <img src="images/person(1).png" alt="avater">
+                  </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Bessie Berry</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">Funny comparison. so would the proper antivirus not slow down the internet as much or do you mean a freebie doenst protect the computer from viruses?</div>
+                  </div>
+                </div>
+                <div class="my-dialog">
+                  <div class="avater">
+                      <img src="images/person(8).png" alt="avater">
+                  </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Jordan Jackson</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">
+                      <div class="content-text">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2, and haven't had any problems. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. I max out at about 3 Mb/sec down, and 350 Kb/sec up. Probably because of a noisy telephone line, not because I'm being throttled. When my uploads go over 25 KB/sec (note, bytes, not bits), my download speed suffers. This is expected, as downloads require upload bandwidth as well. </div>
+                      <div class="content-image">
+                        <div class="image-wrapper">
+                          <img src="images/person(9).png" alt="dialog-image">
+                          <div class="look">
+                            <div class="look-icon"></div>
+                          </div>
+                        </div>
+                        <div class="image-wrapper">
+                          <img src="images/person(10).png" alt="dialog-image">
+                          <div class="look">
+                            <div class="look-icon"></div>
+                          </div>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class="new-line line">
-              <p class="center-text">New Messages</p>
-            </div>
-            <div class="dialog">
-              <div class="friend-dialog">
-                <div class="avater">
-                  <img src="images/person(1).png" alt="avater">
-                </div>
-                <div class="dialog-container">
-                  <div class="user-basicInfo">
-                    <span class="name">Bessie Berry</span>
-                    <span class="dialog-time">8:31 AM</span>
+              <div class="history-line line">
+                <p class="center-text">Tuesday</p>
+              </div>
+              <div class="dialog">
+                <div class="friend-dialog">
+                  <div class="avater">
+                    <img src="images/person(1).png" alt="avater">
                   </div>
-                  <div class="dialog-content">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Bessie Berry</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">
+                        <div class="content-text">Hi guys Ive got the O2 package and have really slow internet. A speed check online said i can get 3mbps but it seems more like 0.5 these days, just freezing and taking ages to open pages and open audio files for example. I have decided to switch to the UPC package which offers 10mbps but do you think i will get it?</div>
+                        
+                    </div>
+                  </div>
+                </div>
+                <div class="my-dialog">
+                  <div class="avater">
+                      <img src="images/person(8).png" alt="avater">
+                  </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Jordan Jackson</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">I have internet for 9 month and nevere could benefit from the full capacity of 5Mbit/s as it is filtered by O2 when it detect traffic on public p2p sharing in my situation all my internet speed slows to 512Kbit/s. I never had 400KB/s on when downloading from p2p public servers like torrent emule etc. I downoad with 500KB/s from private trakers instead. So conlcusion O2 block trafic on p2p connections. I have made hundreds of test in Italy and Sweden and Romania with the same file to doanload with the same setting and same antivirus and just needed to open ports in firewall and forward same ports and the speed was at full capacity in 1 minute. here in 9 month never had this luck.</div>
+                    <!-- <div class="content-image">
+                      <div class="image-wrapper">
+                        <img src="" alt="dialog-image" onerror="this.style.display='none'">
+                      </div>
+                      <div class="image-wrapper">
+                        <img src="" alt="dialog-image" onerror="this.style.display='none'">
+                      </div>
+                    </div> -->
+                  </div>
                 </div>
               </div>
-              <div class="answer">
-                <div class="add-button"><span>+</span></div>
-                <input type="text" name="answer">
+              <div class="new-line line">
+                <p class="center-text">New Messages</p>
               </div>
+              <div class="dialog">
+                <div class="friend-dialog">
+                  <div class="avater">
+                    <img src="images/person(1).png" alt="avater">
+                  </div>
+                  <div class="dialog-container">
+                    <div class="user-basicInfo">
+                      <span class="name">Bessie Berry</span>
+                      <span class="dialog-time">8:31 AM</span>
+                    </div>
+                    <div class="dialog-content">I pay for the 4Mb/sec down, 512 Kb/sec up service from O2. In fact, it's relatively quick, and stable. It's not perfect, but I really don't have issues, as long as I keep track of what I'm doing on it. </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="answer">
+              <div class="add-button"><span>+</span></div>
+              <input type="text" name="answer">
             </div>
           </div>
         </div>
