@@ -469,7 +469,7 @@ menu .option .title {
   top: 91px;
   bottom: 0;
   width: 100%;
-  height: 100%;
+  padding-bottom: 80px;
 }
 .dialog-wrapper .dialog {
   font-size: 12px;
